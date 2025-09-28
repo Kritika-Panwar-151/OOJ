@@ -1,4 +1,4 @@
-package Sample_Programs;
+
 import java.util.Scanner;
 public class sum
 {
