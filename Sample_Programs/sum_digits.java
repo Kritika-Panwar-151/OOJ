@@ -7,7 +7,7 @@ public class sum_digits
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the number:");
+        System.out.print("\nEnter the number:");
         int n=sc.nextInt();//To get value of n as an in
         int og_num=n;
         int digit,num=0;
