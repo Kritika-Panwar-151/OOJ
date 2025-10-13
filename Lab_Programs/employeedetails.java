@@ -21,7 +21,7 @@ class Employee
         }
     }
 }
-
+ 
 public class employeedetails
 {
     public static void main(String[] args) 

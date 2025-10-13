@@ -18,8 +18,8 @@ class calcGrade
         System.out.println(name+"'s Grade:");
         System.out.println("Average:"+m);
         System.out.println("Grade 1:"+cal(marks1));
-        System.out.println("Grade 1:"+cal(marks2));
-        System.out.println("Grade 1:"+cal(marks3));
+        System.out.println("Grade 2:"+cal(marks2));
+        System.out.println("Grade 3:"+cal(marks3));
     }
     void calculateGrade(double percentage)
     {
@@ -51,7 +51,7 @@ public class grade
         student2.calculateGrade(87,98,100);
 
         calcGrade student3=new calcGrade("Student3");
-        student3.calculateGrade(76);
+        student3.calculateGrade(76.88);
         student3.display();
     }
 }

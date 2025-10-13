@@ -28,17 +28,9 @@ public class timeAdd
 {
     public static void main(String args[])
     {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter Hours and Minutes for:");
-        System.out.println("Time1:");
-        int h1=sc.nextInt();
-        int m1=sc.nextInt();
-        System.out.println("Time2:");
-        int h2=sc.nextInt();
-        int m2=sc.nextInt();
-        Time t1=new Time(h1,m1);
-        Time t2=new Time(h2,m2);
+        Time t1=new Time(4,60);
+        Time t2=new Time(5,20);
         Time t3=t1.addTime(t1,t2);
-        t3.display();
+        t3.display();                                                                                                                                                                  
     }   
 }
