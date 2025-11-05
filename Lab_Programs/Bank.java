@@ -120,7 +120,7 @@ class SavingsAccount extends Account
     @Override
     void deposit(double amount)
     {
-        if(amount>=0)
+        if(amount>0)
         {
             super.deposit(amount);
         }
@@ -143,7 +143,7 @@ public class Bank
     {
         Scanner sc=new Scanner(System.in);
         CurrentAccount a1=new CurrentAccount("Tom","1AN1234","Current",500);
-        SavingsAccount a2=new SavingsAccount("Tina","1AN1234","Savings",2000,20,2);
+        SavingsAccount a2=new SavingsAccount("Tina","1AN2643","Savings",2000,20,2);
 
         System.out.println("\nAccount details:");
         a1.display();
@@ -155,7 +155,7 @@ public class Bank
 
         
         a1.deposit(5000);
-        a2.deposit(-3000);
+        a2.deposit(0);
 
         System.out.println("\nAfter compounding interest:");
         a2.compoundInterest(4);
